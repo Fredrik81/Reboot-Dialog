@@ -1,6 +1,8 @@
 # Reboot-Dialog
 Will run silently in background and show a popup dialog when reboot is needed with snooze options.
 
+[Download from releases](https://github.com/Fredrik81/Reboot-Dialog/releases/latest "Latest Release")
+
 I made this program to solve an issue i was facing where we did not want to force reboots of clients but simply inform them that a reboot was needed with a reminder dialog and snooze options.
 
 This program is made only for Windows and .Net 4.6+ is required.
