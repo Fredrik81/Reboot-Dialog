@@ -19,3 +19,4 @@ Snooze options are set to 15min, 30min, 1 hour or 2 hours.
 Program will check silently in the background every 5min if there is a pending reboot.
 
 I hope you find it usefull :-)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=devnull81@gmail.com)
