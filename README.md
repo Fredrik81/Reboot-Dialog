@@ -31,7 +31,7 @@ To change picture you need to place a file in the same directory called "Picture
 ---
 1. Copy the files into a folder on the computer (in this example C:\Program Files\RebootDialog)
 2. Add it to registry so it will start automatically (require admin rights)
-   Open a CMD window and run this command: reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v RebootDialog /t REG_SZ /d "\"C:\Program Files\RebootDialog\Reboot Dialog.exe\"" /f
+   Open a CMD window and run this command: reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v RebootDialog /t REG_SZ /d "\\"C:\Program Files\RebootDialog\Reboot Dialog.exe\\"" /f
    or Powershell (also as admin): New-ItemProperty -Path HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Run -Name RebootDialog -Value '"C:\Program Files\RebootDialog\Reboot Dialog.exe"' -Force
 
 I hope you find it usefull :-)
