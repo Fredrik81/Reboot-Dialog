@@ -11,6 +11,9 @@ The program will detect on two things at this time:
 
 It does not use/require network access and is fully customizable in the dialog.
 You can change picture, text fields and button text to make it look the way you want it or branded to your company.
+All the text can be changed from the file "Reboot Dialog.exe.config".
+To change picture you need to place a file in the same directory called "Picture.png" with size 555x312.
+![My image](Screenshot.PNG)
 
 Snooze options are set to 15min, 30min, 1 hour or 2 hours.
 Program will check silently in the background every 5min if there is a pending reboot.
