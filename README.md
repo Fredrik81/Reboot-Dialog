@@ -23,7 +23,7 @@ Program will check silently in the background every 5min if there is a pending r
 ---
 You can change picture, text fields and button text to make it look the way you want it or branded to your company.
 All the text can be changed from the file "Reboot Dialog.exe.config".
-To change picture you need to place a file in the same directory called "Picture.png" with size 292x164.
+To change picture, you need to place a file in the same directory called "Picture.png" with size 292x164.
 <br/>
 ![My image](Screenshot.PNG)
 <br/>
@@ -45,7 +45,7 @@ Test mode will force the reboot dialog to show after 5 seconds and the "reboot n
    or<br/>
    Powershell (also as admin): New-ItemProperty -Path HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Run -Name RebootDialog -Value '"C:\Program Files\RebootDialog\Reboot Dialog.exe"' -Force<br/>
 
-I hope you find it usefull :-)
+I hope you find it useful :-)
 ***
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=RYV3HC2FTG2XS&currency_code=USD)
