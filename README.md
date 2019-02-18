@@ -48,4 +48,14 @@ Test mode will force the reboot dialog to show after 5 seconds and the "reboot n
 I hope you find it useful :-)
 ***
 
+## Planned Features
+---
+* Flexibility of snooze time
+* After X amount of time remove some snooze options (only allow shorter snooze time)
+* Command line options
+* More interface customization options
+
+---
+<br/>
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=RYV3HC2FTG2XS&currency_code=USD)
