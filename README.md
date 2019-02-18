@@ -26,6 +26,16 @@ All the text can be changed from the file "Reboot Dialog.exe.config".
 To change picture you need to place a file in the same directory called "Picture.png" with size 555x312.
 <br/>
 ![My image](Screenshot.PNG)
+<br/>
+### Test mode
+You can enable test mode from the applications configuration file (Reboot Dialog.exe.config).
+```XML
+<setting name="TestMode" serializeAs="String">
+    <value>True</value>
+</setting>
+```
+Test mode will force the reboot dialog to show after 5 seconds and the "reboot now" button will only close the application instead of rebooting.
+
 
 ## Manual installation
 ---
