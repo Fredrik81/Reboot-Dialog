@@ -1,4 +1,4 @@
-# Reboot-Dialog
+ Reboot-Dialog
 ------
 Will run silently in background and show a popup dialog when reboot is needed with snooze options.
 
@@ -10,16 +10,25 @@ I made this program to solve an issue i was facing where we did not want to forc
 
 ## How it works and requirements
 ---
+### Requirements
 This program is made only for Windows and .Net 4.6+ is required (Built-in for Windows 10).<br/>
+It does not use/require network access and is fully customizable in the dialog.<br/>
+
+### How it works
+When the program is started it will hide it self in the background. You will not see anything on the taskbar or system tray.<br/>
+Every 5min if there is a pending reboot and if detected it will present a dialog to the user.<br/>
+It will only allow one process to be started so if you even run this from a scheduled task. <br/>
+You can see the process in task manager on the machine and also kill it there if you want.<br/>
+![My image](Screenshot.PNG)
+
 Detection of reboot is made from two things at this time:
 1. Windows Update is installed and pending reboot<br/>
-3. Component Based Servicing is pending a reboot<br/>
+3. Component Based Servicing is pending a reboot (can be turned on or off from config)<br/>
 2. Microsoft System Center Configuration Manager (SCCM) have installed update or application that require reboot<br/>
    SCCM Client is not needed it's just an extra check if you have it installed.<br/>
 (More to come)<br/><br/>
-It does not use/require network access and is fully customizable in the dialog.<br/>
+
 Default snooze options are set to 15min, 30min, 1 hour or 2 hours.<br/>
-Program will check silently in the background every 5min if there is a pending reboot.<br/>
 
 ## Customizations
 ---
