@@ -8,6 +8,11 @@ Will run silently in background and show a popup dialog when reboot is needed wi
 
 I made this program to solve an issue i was facing where we did not want to force reboots of clients but simply inform them that a reboot was needed with a reminder dialog and snooze options.<br/>
 
+## Installation
+Documented information on how to perform manual installation or automatic using powershell script.
+The powershell can easily be added to for example SCCM to mass deploy.
+[Install Instructions](https://github.com/Fredrik81/Reboot-Dialog/blob/master/Install/Install.md)
+
 ## How it works and requirements
 ---
 ### Requirements
@@ -64,17 +69,12 @@ User can use this 2 hours snooze options for the first 2 days after reboot requi
 ```
 Test mode will force the reboot dialog to show after 5 seconds and the "reboot now" button will only close the application instead of rebooting.<br/>
 
-
-## Manual installation
 ---
-1. Copy the files into a folder on the computer (in this example C:\Program Files\RebootDialog)<br/>
-2. Add it to registry so it will start automatically (require admin rights)<br/>
-   CMD window (as Admin: reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v RebootDialog /t REG_SZ /d "\\"C:\Program Files\RebootDialog\Reboot Dialog.exe\\"" /f<br/>
-   or<br/>
-   Powershell (also as admin): New-ItemProperty -Path HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Run -Name RebootDialog -Value '"C:\Program Files\RebootDialog\Reboot Dialog.exe"' -Force<br/>
 
-I hope you find it useful :-)
-***
+<br/>
+I hope you find it useful :-)<br/>
+
+---
 
 ## Planned Features
 ---
