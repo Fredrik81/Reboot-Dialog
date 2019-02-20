@@ -49,10 +49,15 @@ Example: "C:\Program Files\RebootDialog\Reboot Dialog.exe" /TestMode<br/>
 
 ### Customized Snooze options
 You can customize snooze options from the applications configuration file (Reboot Dialog.exe.config).<br/>
+![Snooze](/Images/Snooze.jpg)
+
 Syntax: [Name];[Minutes];[Days Available]<br/>
 Example:<br/>
+30min;30<br/>
+  * Snooze the reminder for 30min.<br/>
+
 2 Hours;120;2<br/>
-User can use this 2 hours snooze options for the first 2 days after reboot required is detected.<br/>
+  * Snooze the reminder for 2 hours, this option will disapear after 2 days of snoozing.<br/>
 
 ```XML
 <setting name="SnoozeOptions" serializeAs="Xml">
