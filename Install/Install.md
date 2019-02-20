@@ -12,7 +12,7 @@
 1. Grab the powershell script from: [Install.ps1](https://github.com/Fredrik81/Reboot-Dialog/raw/master/Install/Install.ps1)
 1. Put the powershell script in a folder together with the program files Reboot Dialog.exe, Reboot Dialog.exe.conf (and Picture.png if you have that)
 1. Execute the Powershell script
-  * From SCCM package that would be: powershell.exe -ExecutionPolicy ByPass -File Install.ps1
+   * From SCCM package that would be: powershell.exe -ExecutionPolicy ByPass -File Install.ps1
 
 This will install the program in "C:\Program Files\RebootDialog" and also start it in the background in case a domain user is logged in
 
