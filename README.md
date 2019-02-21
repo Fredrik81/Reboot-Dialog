@@ -44,10 +44,10 @@ To change picture, you need to place a file in the same directory called "Pictur
 [Demo of customizations](/Demo.md)
 <br/>
 
-<br/>
 ### Test mode
 Test mode can now be activated with command-line argument: /TestMode<br/>
 Example: "C:\Program Files\RebootDialog\Reboot Dialog.exe" /TestMode<br/>
+Test mode will force the reboot dialog to show after 5 seconds and the "reboot now" button will only close the application instead of rebooting.<br/>
 
 ### Customized Snooze options
 You can customize snooze options from the applications configuration file (Reboot Dialog.exe.config).<br/>
@@ -74,11 +74,10 @@ Example:<br/>
     </value>
 </setting>
 ```
-Test mode will force the reboot dialog to show after 5 seconds and the "reboot now" button will only close the application instead of rebooting.<br/>
+
 
 ---
 
-<br/>
 I hope you find it useful :-)<br/>
 
 ---
