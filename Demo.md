@@ -24,45 +24,27 @@ BackgroundColor = #FF303946
 <pre lang="php">
 TextShadows = True
 Transparent = 0.95
-FontColor = #111111
-BackgroundColor = #EEEEEE
+FontColor = #FFFFFF
+BackgroundColor = #000000
 </td>
 <td>
 <pre lang="php">
 TextShadows = True
 Transparent = 0.95
-FontColor = #111111
-BackgroundColor = #EEEEEE
+FontColor = #FFFFFF
+BackgroundColor = #334d93
 </pre>
 </td>
-</tr></tbody></table>
+</tr><tr>
+    <td><img src=/Images/demo_Color_Original.png /></td>
+    <td><img src=/Images/demo_Color_BlackWhite.png /></td>
+    <td><img src=/Images/demo_Color_BlueWhite.png /></td>
+</tbody></table>
 
 ## Picture/Logo
-<table>
-<thead>
-<tr>
-<th align="center">abc</th>
-<th align="right">defghi</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">bar</td>
-<td align="right">baz</td>
-</tr></tbody></table>
+You can change the default picture with something else like your company logo by adding a Picture.PNG file to same folder as the binary.<br/>
+Download example picture: [Picture.PNG](/Images/Picture.PNG)<br/>
+![Picture Demo](/Images/demo_Picture.png)
 
 ## Transparency
-<pre><code data-language="javascript">
-<setting name="TextShadows" serializeAs="String">
-    <value>True</value>
-</setting>
-<setting name="Transparent" serializeAs="String">
-    <value>0.95</value>
-</setting>
-<setting name="FontColor" serializeAs="String">
-    <value>#FFFFFF</value>
-</setting>
-<setting name="BackgroundColor" serializeAs="String">
-    <value>#FF303946</value>
-</setting>
-</code></pre>
+
