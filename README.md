@@ -1,6 +1,7 @@
  Reboot-Dialog
 ------
-Will run silently in background and show a popup dialog when reboot is needed with snooze options.
+Will run silently in background and show a popup dialog when reboot is needed with snooze options.<br/>
+![My image](Screenshot.PNG)
 
 ## Download:
 ---
@@ -40,8 +41,9 @@ Default snooze options are set to 15min, 30min, 1 hour or 2 hours.<br/>
 You can change picture, text fields and button text to make it look the way you want it or branded to your company.<br/>
 All the text can be changed from the file "Reboot Dialog.exe.config".<br/>
 To change picture, you need to place a file in the same directory called "Picture.png" with size 292x164.<br/>
+[Demo of customizations](/Demo.md)
 <br/>
-![My image](Screenshot.PNG)
+
 <br/>
 ### Test mode
 Test mode can now be activated with command-line argument: /TestMode<br/>
