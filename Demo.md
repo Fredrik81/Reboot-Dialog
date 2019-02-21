@@ -40,7 +40,7 @@ BackgroundColor = #334d93
 
 ## Picture/Logo
 You can change the default picture with something else like your company logo by adding a Picture.PNG file to same folder as the binary.<br/>
-Download example picture: [Picture.PNG](/Images/Picture.PNG)<br/>
+Download example picture: [Picture.png](/Images/Picture.png)<br/>
 ![Picture Demo](/Images/demo_Picture.png)
 
 ## Transparency
