@@ -1,4 +1,4 @@
- Reboot-Dialog
+ Reboot-Dialog [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Tool%20to%20remind%20users%20there%20are%20pending%20reboot%20with%20snooze%20options.&url=https://github.com/Fredrik81/Reboot-Dialog/blob/master/README.md&via=rydin_fredrik&hashtags=reminder,reboot,updates,ConfigMgr,SCCM,Windows10)
 ------
 Will run silently in background and show a popup dialog when reboot is needed with snooze options.<br/>
 ![My image](Screenshot.PNG)
@@ -100,4 +100,4 @@ I hope you find it useful :-)<br/>
 ---
 <br/>
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=RYV3HC2FTG2XS&currency_code=USD)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=RYV3HC2FTG2XS&currency_code=USD)[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Tool%20to%20remind%20users%20there%20are%20pending%20reboot%20with%20snooze%20options.&url=https://github.com/Fredrik81/Reboot-Dialog/blob/master/README.md&via=rydin_fredrik&hashtags=reminder,reboot,updates,ConfigMgr,SCCM,Windows10)
