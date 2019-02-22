@@ -33,12 +33,14 @@ It will only allow one process to be started so if you even run this from a sche
 You can see the process in task manager on the machine and also kill it there if you want.<br/>
 ![My image](Process.PNG)
 
-Detection of reboot is made from two things at this time:
-1. Windows Update is installed and pending reboot<br/>
-3. Component Based Servicing is pending a reboot (can be turned on or off from config)<br/>
-2. Microsoft System Center Configuration Manager (SCCM) have installed update or application that require reboot<br/>
+Detection of reboot is made from three things at this time:
+* Windows Update is installed and pending reboot<br/>
+* Component Based Servicing is pending a reboot (can be turned on or off from config)<br/>
+* Microsoft System Center Configuration Manager (SCCM) have installed update or application that require reboot<br/>
    SCCM Client is not needed it's just an extra check if you have it installed.<br/>
 (More to come)<br/><br/>
+
+SCCM client is not required it's just an extra check and this will work with an Intune only (or other management tool as well).<br/>
 
 Default snooze options are set to 15min, 30min, 1 hour or 2 hours.<br/>
 
