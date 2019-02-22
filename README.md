@@ -19,8 +19,14 @@ The powershell can easily be added to for example SCCM to mass deploy.
 ### Requirements
 This program is made only for Windows and .Net 4.6+ is required (Built-in for Windows 10).<br/>
 It does not use/require network access and is fully customizable in the dialog.<br/>
+* Windows 10 (any version x86 or x64)
+* Windows 8 & 8.1 (with .Net 4.6 or higher installed)
+* Windows 7 SP1 (with .Net 4.6 or higher installed)
 
-### How it works
+#### Windows 7 SP1 .Net 4.6 (unpatched except .Net 4.6)
+![Windows 7 SP1](/Images/Windows7.png)
+
+## How it works
 When the program is started it will hide it self in the background. You will not see anything on the taskbar or system tray.<br/>
 Every 5min if there is a pending reboot and if detected it will present a dialog to the user.<br/>
 It will only allow one process to be started so if you even run this from a scheduled task. <br/>
