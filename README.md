@@ -52,6 +52,11 @@ To change picture, you need to place a file in the same directory called "Pictur
 [Demo of customizations](/Demo.md)
 <br/>
 
+### Multi-Language
+The program support multi-language and you can add/change the texts from the file "Languages.xml".<br/>
+If you need to change the built-in langauge than you can do that from the "Reboot Dialog.config" file.<br/>
+Examples is found in the demo page: [Demo of customizations](/Demo.md)
+
 ### Test mode
 Test mode can now be activated with command-line argument: /TestMode<br/>
 Example: "C:\Program Files\RebootDialog\Reboot Dialog.exe" /TestMode<br/>
@@ -86,16 +91,8 @@ Example:<br/>
 
 ---
 
+Feel free to request features or submit bugs from the Issues part in github.<br/>
 I hope you find it useful :-)<br/>
-
----
-
-## Planned Features
----
-- [x] Flexibility of snooze time
-- [x]  After X amount of time remove some snooze options (only allow shorter snooze time)
-- [ ]  Command line options (first done for Test Mode)
-- [ ]  More interface customization options
 
 ---
 <br/>
