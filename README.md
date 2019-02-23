@@ -1,7 +1,7 @@
  Reboot-Dialog [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Tool%20to%20remind%20users%20there%20are%20pending%20reboot%20with%20snooze%20options.&url=https://github.com/Fredrik81/Reboot-Dialog/blob/master/README.md&via=rydin_fredrik&hashtags=reminder,reboot,updates,ConfigMgr,SCCM,Windows10)
 ------
 Will run silently in background and show a popup dialog when reboot is needed with snooze options.<br/>
-![My image](Screenshot.PNG)
+![My image](/Images/Screenshot.png)
 
 ## Download:
 ---
@@ -31,7 +31,7 @@ When the program is started it will hide it self in the background. You will not
 Every 5min if there is a pending reboot and if detected it will present a dialog to the user.<br/>
 It will only allow one process to be started so if you even run this from a scheduled task. <br/>
 You can see the process in task manager on the machine and also kill it there if you want.<br/>
-![My image](Process.PNG)
+![My image](/Images/Process.PNG)
 
 Detection of reboot is made from three things at this time:
 * Windows Update is installed and pending reboot<br/>
