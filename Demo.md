@@ -91,8 +91,8 @@ If the file is missing or the user language is not supported then it UI will rev
 </thead>
 <tbody>
 <tr>
-    <td><img src=/Images/fr-FR.png /></td>
-    <td><img src=/Images/de-DE.png /></td>
-    <td><img src=/Images/zh-CN.png /></td>
-    <td><img src=/Images/ja-JP.png /></td>
+    <td><img src=/Images/fr-FR.PNG /></td>
+    <td><img src=/Images/de-DE.PNG /></td>
+    <td><img src=/Images/zh-CN.PNG /></td>
+    <td><img src=/Images/ja-JP.PNG /></td>
 </tbody></table>
