@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <sv-SE>
+    <TitleText>Omstart av datorn behövs!</TitleText>
+    <BodyText>
+      IT påminner dig ...
+
+      Din enhet har installerat uppdateringar och väntar på omstart för att slutföra installationen.
+
+      Detta är bara en påminnelse och omstart kommer inte att tvingas.
+
+      Var noga med att starta om enheten på din lämpliga tid!
+    </BodyText>
+    <SnoozeText>Du kan klicka snooze för att påminnas igen:</SnoozeText>
+    <ButtonSnooze>Snooze</ButtonSnooze>
+    <ButtonReboot>Starta om</ButtonReboot>
+  </sv-SE>
+
+  <fr-FR>
+    <TitleText>Redémarrage nécessaire!</TitleText>
+    <BodyText>
+      IT vous rappelle ...
+      Votre appareil a installé les mises à jour et est en attente de redémarrage pour terminer l'installation.
+
+      Ceci est seulement un rappel et les redémarrages ne seront pas forcés.
+
+      Assurez-vous de redémarrer votre appareil au moment opportun!
+    </BodyText>
+    <SnoozeText>Cliquez sur Répéter pour être rappelé dans:</SnoozeText>
+    <ButtonSnooze>Roupillon</ButtonSnooze>
+    <ButtonReboot>Redémarrez</ButtonReboot>
+  </fr-FR>
+
+  <de-DE>
+    <TitleText>Neustart erforderlich!</TitleText>
+    <BodyText>
+      IT erinnert Sie daran ...
+
+      Ihr Gerät hat Updates installiert und wartet auf einen Neustart, um die Installation abzuschließen.
+
+      Dies ist nur eine Erinnerung und Neustarts werden nicht erzwungen.
+
+      Bitte stellen Sie sicher, dass Sie Ihr Gerät rechtzeitig wieder starten!
+    </BodyText>
+    <SnoozeText>Klicken Sie auf Snooze, um erinnert zu werden in:</SnoozeText>
+    <ButtonSnooze>Schlummern</ButtonSnooze>
+    <ButtonReboot>Jetzt neustarten</ButtonReboot>
+  </de-DE>
+
+  <zh-CN>
+    <TitleText>需要重新启动！</TitleText>
+    <BodyText>
+      它提醒你......
+
+      您的设备已安装更新并正在等待重新启动以完成安装。
+
+      这只是一个提醒，不会强制重新启动。
+
+      请确保在方便的时候重启您的设备！
+    </BodyText>
+    <SnoozeText>点击提醒以提醒：</SnoozeText>
+    <ButtonSnooze>打盹</ButtonSnooze>
+    <ButtonReboot>马上重启</ButtonReboot>
+  </zh-CN>
+
+  <ja-JP>
+    <TitleText>再起動が必要です。</TitleText>
+    <BodyText>
+      それはあなたを思い出させる...
+
+      更新プログラムがデバイスにインストールされ、インストールを完了するために再起動を待っています。
+
+      これは単なる通知であり、再起動を強制するものではありません。
+
+      都合の良いときにデバイスを再起動してください。
+    </BodyText>
+    <SnoozeText>一時停止するには、スヌーズボタンをクリックしてください。</SnoozeText>
+    <ButtonSnooze>スヌーズ</ButtonSnooze>
+    <ButtonReboot>今すぐ再起動</ButtonReboot>
+  </ja-JP>
+</Languages>
