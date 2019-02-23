@@ -75,3 +75,24 @@ Transparent = 0.75
     <td><img src=/Images/demo_transparent_50.png /></td>
     <td><img src=/Images/demo_transparent_75.png /></td>
 </tbody></table>
+
+## Multi language
+You can add any language you need or change the pre-defined languages in the "Language.xml" file.<br/>
+If the file is missing or the user language is not supported then it UI will revert to default from the "Reboot Dialog.config" file.<br/>
+
+<table>
+<thead>
+<tr>
+<th align="center">French</th>
+<th align="center">German</th>
+<th align="center">Chinese</th>
+<th align="center">Japanese</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td><img src=/Images/fr-FR.png /></td>
+    <td><img src=/Images/de-DE.png /></td>
+    <td><img src=/Images/zh-CN.png /></td>
+    <td><img src=/Images/ja-JP.png /></td>
+</tbody></table>
