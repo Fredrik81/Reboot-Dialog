@@ -48,19 +48,19 @@
   </de-DE>
 
   <zh-CN>
-    <TitleText>需要重新启动！</TitleText>
+    <TitleText>需要重启！</TitleText>
     <BodyText>
-      它提醒你......
+      IT提醒您…
 
-      您的设备已安装更新并正在等待重新启动以完成安装。
+      您的设备下载了一些系统补丁并需要重启一次来完成安装。
 
-      这只是一个提醒，不会强制重新启动。
+      这仅仅是个提醒，不强制重启。
 
-      请确保在方便的时候重启您的设备！
+      请在您方便的时候重启您的电脑。
     </BodyText>
     <SnoozeText>点击提醒以提醒：</SnoozeText>
-    <ButtonSnooze>打盹</ButtonSnooze>
-    <ButtonReboot>马上重启</ButtonReboot>
+    <ButtonSnooze>稍等</ButtonSnooze>
+    <ButtonReboot>现在重启</ButtonReboot>
   </zh-CN>
 
   <ja-JP>
