@@ -19,15 +19,15 @@
   <fr-FR>
     <TitleText>Redémarrage nécessaire!</TitleText>
     <BodyText>
-      IT vous rappelle ...
-      Votre appareil a installé les mises à jour et est en attente de redémarrage pour terminer l'installation.
+      L’IT vous rappelle…
+      Des mises à jour ont été installé sur votre appareil et un redémarrage est en attente pour finaliser l’installation.
 
-      Ceci est seulement un rappel et les redémarrages ne seront pas forcés.
+      Ceci est un seulement un rappel et le redémarrage ne sera pas forcé.
 
-      Assurez-vous de redémarrer votre appareil au moment opportun!
+      Merci de redémarrer votre appareil au moment qu’il vous convient !
     </BodyText>
-    <SnoozeText>Cliquez sur Répéter pour être rappelé dans:</SnoozeText>
-    <ButtonSnooze>Roupillon</ButtonSnooze>
+    <SnoozeText>Cliquez sur « Plus tard » pour être rappelé dans:</SnoozeText>
+    <ButtonSnooze>Plus tard</ButtonSnooze>
     <ButtonReboot>Redémarrez</ButtonReboot>
   </fr-FR>
 
