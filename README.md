@@ -29,7 +29,8 @@ It does not use/require network access and is fully customizable in the dialog.<
 ## How it works
 When the program is started it will hide it self in the background. You will not see anything on the taskbar or system tray.<br/>
 Every 5min if there is a pending reboot and if detected it will present a dialog to the user.<br/>
-It will only allow one process to be started so if you even run this from a scheduled task. <br/>
+It will only allow one process to be started so if you even run this from a scheduled task.<br/>
+**The dialog will be suppressed for the first 15min after the system reboots**, this is to ensure patches or other setups have time to finish so no false detection is made.<br/>
 You can see the process in task manager on the machine and also kill it there if you want.<br/>
 ![My image](/Images/Process.PNG)
 
@@ -38,6 +39,7 @@ Detection of reboot is made from three things at this time:
 * Component Based Servicing is pending a reboot (can be turned on or off from config)<br/>
 * Microsoft System Center Configuration Manager (SCCM) have installed update or application that require reboot<br/>
    SCCM Client is not needed it's just an extra check if you have it installed.<br/>
+* System boot time, you can configure so the dialog is show if the device have been up for more than X days. Configurable from configuration, default is 0 = disabled.<br/>
 (More to come)<br/><br/>
 
 SCCM client is not required it's just an extra check and this will work with an Intune only (or other management tool as well).<br/>
