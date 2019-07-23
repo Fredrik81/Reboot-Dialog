@@ -1,4 +1,12 @@
-theme: jekyll-theme-slate
+title: Reboot Dialog for Windows
+description: Will run silently in background and show a popup dialog when reboot is needed with snooze options. Support Windows 7+
+
+permalink: pretty
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+theme: jekyll-theme-primer
+
 google_analytics: UA-49827113-2
