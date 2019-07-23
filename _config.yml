@@ -13,7 +13,7 @@ plugins:
   - jekyll-paginate
 
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 google_analytics: UA-49827113-2
 
 # Site Author
