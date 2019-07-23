@@ -99,6 +99,4 @@ I hope you find it useful :-)<br/>
 ---
 <br/>
 
-ko_fi: fredrikrydin
-
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M4ZS0Y)[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Tool%20to%20remind%20users%20there%20are%20pending%20reboot%20with%20snooze%20options.&url=https://github.com/Fredrik81/Reboot-Dialog/blob/master/README.md&via=rydin_fredrik&hashtags=reminder,reboot,updates,ConfigMgr,SCCM,Windows10)
