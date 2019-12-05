@@ -48,6 +48,11 @@ SCCM client is not required it's just an extra check and this will work with an 
 
 Default snooze options are set to 15min, 30min, 1 hour or 2 hours.<br/>
 
+## Trigger/On-Demand mode
+The program also has an argument (/trigger) that will prompt the user immediately when executed and give the normal snooze options defined in the configuration.</br>
+This mode can be useful if you want to prompt the user for reboot from a script, example after installation of a program.</br>
+Example: "C:\Program Files\RebootDialog\Reboot Dialog.exe" /trigger
+
 ## Customizations
 ---
 You can change picture, text fields and button text to make it look the way you want it or branded to your company.<br/>
