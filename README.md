@@ -75,14 +75,22 @@ Test mode will force the reboot dialog to show after 5 seconds and the "reboot n
 You can customize snooze options from the applications configuration file (Reboot Dialog.exe.config).<br/>
 ![Snooze](/Images/Snooze.jpg)
 
-Syntax: [Name];[Minutes];[Days Available]<br/>
-Example:<br/>
+<b>Syntax:</b><br>
+Never diapering option: [Text];[Minutes]<br/>
+Disappearing after X amount of days: [Text];[Minutes];[Days Available]<br/>
+
+<b>Examples:</b><br/>
 30min;30<br/>
   * Snooze the reminder for 30min.<br/>
 
 2 Hours;120;2<br/>
   * Snooze the reminder for 2 hours, this option will disapear after 2 days of snoozing.<br/>
 
+
+
+<b>Configuration example (the default)</b><br/>
+Snooze options available "forever" 15min and 30min.<br/>
+User can snooze for 2 hours the first day and 1 hour the first two days.<br/>
 ```XML
 <setting name="SnoozeOptions" serializeAs="Xml">
     <value>
@@ -97,6 +105,27 @@ Example:<br/>
 </setting>
 ```
 
+
+<b>Configuration example "soft forced reboot"</b><br/>
+No snooze options available that is available "forever".<br/>
+User can snooze for 2 hours the first day.<br/>
+1 hour the first two days.<br/>
+30 min the first three days.<br/>
+15 min the first four days.<br/>
+After four days the dialog will stay on the screen ___with only reboot button available___.<br/>
+```XML
+<setting name="SnoozeOptions" serializeAs="Xml">
+    <value>
+        <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <string>15min;15;4</string>
+            <string>30min;30;3</string>
+            <string>1hour;60;2</string>
+            <string>2hours;120;1</string>
+        </ArrayOfString>
+    </value>
+</setting>
+```
 
 ---
 
