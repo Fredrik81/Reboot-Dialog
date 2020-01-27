@@ -503,6 +503,6 @@ left join v_Collection as C on C.CollectionID = FCM.CollectionID
   </CodeModules>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportServerUrl>http://de01-sccmr01/ReportServer</rd:ReportServerUrl>
+  <rd:ReportServerUrl></rd:ReportServerUrl>
   <rd:ReportID>342f9866-6fe2-49ef-ba92-c179b98a60c0</rd:ReportID>
 </Report>
